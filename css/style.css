@@ -157,7 +157,7 @@ img {
             focus 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ul-address .list-item:first-child .address-link {
+.ul-address .list-item:nth-child(2) .address-link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -335,13 +335,13 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.parent:hover .social-list-link, .social-list-link:hover {
+.parent:hover .social-list-link, .social-list-link:hover, .social-list-link:focus {
     background-color: #404bbf;
     border-radius: 50%;
 }
 
 .social-list-icon {
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
 /* Section Portfolio  */
@@ -420,9 +420,13 @@ img {
     padding: 100px 0 100px;
 }
 
+.footer .logo {
+    margin-right: 120px;
+}
+
 .footer .container.flex {
     justify-content: left;
-    align-items: start;
+    align-items: baseline
 }
 
 a.logo.bottom {
@@ -442,17 +446,27 @@ a.logo.bottom {
 
 .footer-social .footer-paragraph {
     font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 
 .footer-social .social-list-item {
-    margin: 12px 12px 0 0;
+    gap: 16px;
 }
-
 
 .footer-social .social-list-item:last-child {
     margin-right: 0;
 }
 
+.footer-social .social-list-link:hover, .footer-social .social-list-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-social .social-list-icon {
+    fill: #f4f4fd;
+}
 
 .ul-nav .list-item:last-child,
 .ul-address .list-item:last-child,
