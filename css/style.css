@@ -119,11 +119,12 @@ img {
     position: relative;
 }
 
-.nav-link:hover, .nav-link:active, .nav-link:focus {
+
+.list-item:first-child .nav-link, .nav-link:hover, .nav-link:active, .nav-link:focus {
     color: #404bbf;
 }
 
-.nav-link:active:after {
+.list-item:first-child .nav-link:after {
     content: "";
     display: block;
     border-radius: 2px;
