@@ -152,9 +152,7 @@ img {
     color: #434455;
     text-decoration: none;
     transition:
-            color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            active 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            focus 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover, .address-link:active, .address-link:focus {
@@ -447,7 +445,10 @@ a.logo.bottom {
     margin-bottom: 16px;
 }
 
+
+
 .footer-social-list-item {
+    display: flex;
     gap: 16px;
 }
 
