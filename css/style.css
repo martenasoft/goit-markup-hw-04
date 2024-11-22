@@ -445,11 +445,13 @@ a.logo.bottom {
     margin-bottom: 16px;
 }
 
-
-
-.footer-social-list-item {
+.footer-social .social-list {
     display: flex;
     gap: 16px;
+}
+
+.footer-social-list-item {
+
 }
 
 .footer-social-list-item .social-list-link:hover, .footer-social-list-item .social-list-link:focus {
