@@ -157,10 +157,6 @@ img {
             focus 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ul-address .list-item:nth-child(2) .address-link {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .address-link:hover, .address-link:active, .address-link:focus {
     color: #404bbf;
 }
@@ -317,7 +313,7 @@ img {
     margin-top: 8px;
 }
 
-.social-list-item {
+.social-list-item, .footer-social-list-item {
     width: 40px;
     height: 40px;
     background-color: #4D5AE5;
@@ -440,7 +436,6 @@ a.logo.bottom {
 }
 
 .footer-social {
-    margin-left: 120px;
     align-items: baseline;
 }
 
@@ -452,23 +447,19 @@ a.logo.bottom {
     margin-bottom: 16px;
 }
 
-.footer-social .social-list-item {
+.footer-social-list-item {
     gap: 16px;
 }
 
-.footer-social .social-list-item:last-child {
-    margin-right: 0;
-}
-
-.footer-social .social-list-link:hover, .footer-social .social-list-link:focus {
+.footer-social-list-item .social-list-link:hover, .footer-social-list-item .social-list-link:focus {
     background-color: #31d0aa;
 }
 
-.footer-social .social-list-icon {
+.footer-social-list-item .social-list-icon {
     fill: #f4f4fd;
 }
 
-.footer-social .social-list {
+.footer-social-list-item .social-list {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -481,10 +472,3 @@ a.logo.bottom {
 .ul-portfolio .list-item:last-child {
     margin-right: 0;
 }
-
-
-
-
-
-
-
